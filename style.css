@@ -1,0 +1,133 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: rgb(247, 241, 233);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    font-size: medium;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(92, 91, 91);
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-banner {
+    display: flex;
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 95vh;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.313);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.banner-text {
+    margin-left: 70px;
+    color: white;
+    width: 40vw;
+    margin-bottom: 32px;
+}
+
+h1 {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+button {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: rgba(77, 67, 49, 0.351);
+}
+
+.information {
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    color: rgb(194, 181, 163);
+    padding: 16px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 68px;
+}
+
+.text {
+    color: rgb(92, 91, 91);
+    padding: 1px;
+}
+
+.product h4 {
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.quote {
+    background-color: rgb(201, 187, 168);
+    padding: 50px;
+    margin-top: 40px;
+    width: 100vw;
+}
+
+.quote-text {
+    text-align: left;
+    padding: 16px;
+    margin-left: 18vw;
+    width: 60vw;
+    font-size: 20px;
+    color: white;
+}
+
+.quote-text .strong {
+    text-align: right;
+}
+
+.sign-up-section { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    padding: 32px;
+    gap: 24px;
+    border-radius: 8px;
+    background-color: rgba(96, 83, 59, 0.351);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    color: rgb(92, 91, 91);
+    background-color: rgb(247, 241, 233);
+}
